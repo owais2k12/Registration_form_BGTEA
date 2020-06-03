@@ -20,25 +20,28 @@
 		        		<!-- SECTION 1 -->
 			            <h2>
 			            	<p class="step-icon"><span>01</span></p>
-			            	<span class="step-text">Peronal Infomation</span>
+							<span class="step-text">Peronal Infomation</span>
+							
 			            </h2>
 			            <section>
 			                <div class="inner">
 			                	<div class="wizard-header">
 									<h3 class="heading">International Friends Home Membership Application Form</h3>
+									<h3 class="heading"> (国际友人之家会员申请表)</h3>
+
 									<p>Please enter your personal infomation and proceed to the next step.  </p>
 								</div>
 								<div class="form-row">
 									<div class="form-holder">
 										<fieldset>
 											<legend>First Name</legend>
-											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name" required>
+											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="名" required>
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>Last Name</legend>
-											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name" required>
+											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="姓" required>
 										</fieldset>
 									</div>
 								</div>
@@ -46,22 +49,22 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Chinese Name (optional)</legend>
-											<input type="text" name="chinese_name" id="chinese_name" placeholder="Chinese Name">
+											<input type="text" name="chinese_name" id="chinese_name" placeholder="中文名">
 											<!--input type="text" name="your_email" id="your_email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Chinese Name" required-->
 										</fieldset>
 									</div>
 								</div>
 								<div class="form-row">
 									<div class="form-holder">
-										<legend>Gender</legend>
+										<legend>Gender（性别）</legend>
 										<select>
-										  <option Value="Male">Male</option>
-										  <option Value="Female">Female</option>
+										  <option Value="Male">Male（男）</option>
+										  <option Value="Female">Female（女）</option>
 										</select>
 									</div>
 									<div class="form-holder">
 										
-											<legend>Nationality</legend>
+											<legend>Nationality (国籍)</legend>
 											<!--input type="text" class="form-control" id="last-name" name="last-name" placeholder="Nationality" required-->
 											<select>
 												<option value="ISO 3166-2:AF">Afghanistan</option>
@@ -321,13 +324,13 @@
 									<div class="form-holder">
 										<fieldset>
 											<legend>Phone Number</legend>
-											<input type="text" class="form-control" id="phone" name="phone" placeholder="+86-18811313152" required>
+											<input type="text" class="form-control" id="phone" name="phone" placeholder="手机" required>
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>Your Email</legend>
-											<input type="text" name="your_email" id="your_email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="example@email.com" required>
+											<input type="text" name="your_email" id="your_email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="邮箱" required>
 										</fieldset>
 									</div>
 								</div>
@@ -336,13 +339,13 @@
 									<div class="form-holder">
 										<fieldset>
 											<legend>Wechat</legend>
-											<input type="text" class="form-control" id="phone" name="phone" placeholder="Wechat ID" required>
+											<input type="text" class="form-control" id="phone" name="phone" placeholder="微信" required>
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>Contact Address</legend>
-											<input type="text" name="your_email" id="your_email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Contact Address" required>
+											<input type="text" name="your_email" id="your_email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="联系地址" required>
 										</fieldset>
 									</div>
 								</div>
@@ -351,13 +354,13 @@
 									<div class="form-holder">
 										<fieldset>
 											<legend>Passport No.</legend>
-											<input type="text" class="form-control" id="phone" name="phone" placeholder="Passport No." required>
+											<input type="text" class="form-control" id="phone" name="phone" placeholder="护照号" required>
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>Upload Passport Picture</legend>
-											<input type="text" name="your_email" id="your_email" class="form-control"  placeholder="Upload Passport Pic" required>
+											<input type="text" name="your_email" id="your_email" class="form-control"  placeholder="需上传护照页" required>
 										</fieldset>
 									</div>
 								</div>
@@ -365,13 +368,13 @@
 									<div class="form-holder">
 										<fieldset>
 											<legend>Work Permit No.</legend>
-											<input type="text" class="form-control" id="phone" name="phone" placeholder="Passport No." required>
+											<input type="text" class="form-control" id="phone" name="phone" placeholder="工作许可证号" required>
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>Upload Passport Picture</legend>
-											<input type="text" name="your_email" id="your_email" class="form-control"  placeholder="Upload Work Permit Pic" required>
+											<input type="text" name="your_email" id="your_email" class="form-control"  placeholder="需上传签证页" required>
 										</fieldset>
 									</div>
 								</div>
@@ -382,7 +385,7 @@
 								</div>
 								<div class="form-row form-row-date">
 									<div class="form-holder form-holder-2">
-										<label class="special-label">Visa Validity:</label>
+										<label class="special-label">Visa Validity (签证有效期):</label>
 										<select name="month" id="month">
 											<option value="MM" disabled selected>MM</option>
 											<option value="Jan">Jan</option>
@@ -477,7 +480,7 @@
 								</div>
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
-											<legend>Whether possess Chinese Green Card</legend>
+											<legend>Whether possess Chinese Green Card (否拥有中国绿卡):</legend>
 											<!--input type="text" name="your_email" id="your_email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Yes/No" required-->
 											<select>
 												<option Value="Yes">Yes</option>
@@ -496,19 +499,21 @@
 			                <div class="inner">
 			                	<div class="wizard-header">
 									<h3 class="heading">Education Details</h3>
+									<h3 class="heading">(教育细节)</h3>
+
 									<p>Please enter your education infomation and proceed to the next step.</p>
 								</div>
 								<div class="form-row">
 									<div class="form-holder">
 										<fieldset>
 											<legend>Highest Degree University</legend>
-											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="Name of Highest Degree University" required>
+											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="最高学历大学名称" required>
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>Highest Degree Major</legend>
-											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Highest Degree Major" required>
+											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="最高学历" required>
 										</fieldset>
 									</div>
 								</div>
@@ -517,7 +522,7 @@
 								</div>
 								<div class="form-row form-row-date">
 									<div class="form-holder form-holder-2">
-										<label class="special-label">From:</label>
+										<label class="special-label">From (从):</label>
 										<select name="month" id="month">
 											<option value="MM" disabled selected>MM</option>
 											<option value="Jan">Jan</option>
@@ -622,7 +627,7 @@
 								</div>
 								<div class="form-row form-row-date">
 									<div class="form-holder form-holder-2">
-										<label class="special-label">To:</label>
+										<label class="special-label">To (至):</label>
 										<select name="month" id="month">
 											<option value="MM" disabled selected>MM</option>
 											<option value="Jan">Jan</option>
@@ -734,19 +739,21 @@
 			                <div class="inner">
 			                	<div class="wizard-header">
 									<h3 class="heading">Work Experience</h3>
+									<h3 class="heading">(工作经历)</h3>
+
 									<p>Please enter your past work experience infomation and proceed to the next step.</p>
 								</div>
 								<div class="form-row">
 									<div class="form-holder">
 										<fieldset>
 											<legend>Name of Employer</legend>
-											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="Name of Employer" required>
+											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="工作单位" required>
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>Position</legend>
-											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Position" required>
+											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="职务" required>
 										</fieldset>
 									</div>
 								</div>
@@ -755,7 +762,7 @@
 								</div>
 								<div class="form-row form-row-date">
 									<div class="form-holder form-holder-2">
-										<label class="special-label">From:</label>
+										<label class="special-label">From (从):</label>
 										<select name="month" id="month">
 											<option value="MM" disabled selected>MM</option>
 											<option value="Jan">Jan</option>
@@ -862,7 +869,7 @@
 								</div>
 								<div class="form-row form-row-date">
 									<div class="form-holder form-holder-2">
-										<label class="special-label">To:</label>
+										<label class="special-label">To (至):</label>
 										<select name="month" id="month">
 											<option value="MM" disabled selected>MM</option>
 											<option value="Jan">Jan</option>
@@ -975,19 +982,21 @@
 			                <div class="inner">
 			                	<div class="wizard-header">
 									<h3 class="heading">Additional Details</h3>
+									<h3 class="heading">(额外细节)</h3>
+
 									<p>Please enter your  achievements, certifications, skills, awards and your interests</p>
 								</div>
 								<div class="form-row">
 									<div class="form-holder">
 										<fieldset>
-											<legend>Liecenses & Certifications(optional)</legend>
-											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="Name of Liecense/Certification">
+											<legend>Liecenses & Certifications 证书 (optional)</legend>
+											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="牌照名称/证明书">
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
-											<legend>Awarded by</legend>
-											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Organization Name" >
+											<legend>Awarded by (获奖者)</legend>
+											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="由...发出" >
 										</fieldset>
 									</div>
 								</div>
@@ -996,7 +1005,7 @@
 								</div>
 								<div class="form-row form-row-date">
 									<div class="form-holder form-holder-2">
-										<label class="special-label">Awarded at:</label>
+										<label class="special-label">Awarded at(颁奖时间):</label>
 										<select name="month" id="month">
 											<option value="MM" disabled selected>MM</option>
 											<option value="Jan">Jan</option>
@@ -1102,14 +1111,14 @@
 								<div class="form-row">
 									<div class="form-holder">
 										<fieldset>
-											<legend>Awards & Accomplishments(optional)</legend>
-											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="Name of Award/Achievement" >
+											<legend>Awards & Accomplishments 奖励和成就 (optional)</legend>
+											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="奖项/成就名称" >
 										</fieldset>
 									</div>
 									<div class="form-holder">
 										<fieldset>
 											<legend>Awarded by</legend>
-											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Organization Name" >
+											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="由...发出" >
 										</fieldset>
 									</div>
 								</div>
@@ -1118,7 +1127,7 @@
 								</div>
 								<div class="form-row form-row-date">
 									<div class="form-holder form-holder-2">
-										<label class="special-label">Awarded at:</label>
+										<label class="special-label">Awarded at(颁奖时间):</label>
 										<select name="month" id="month">
 											<option value="MM" disabled selected>MM</option>
 											<option value="Jan">Jan</option>
@@ -1224,7 +1233,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Skills & Endorsements(optional)</legend>
-											<input type="text" name="your_email" id="your_email" class="form-control"  placeholder="" >
+											<input type="text" name="your_email" id="your_email" class="form-control"  placeholder="技能与认可" >
 										</fieldset>
 									</div>
 								</div>
@@ -1233,7 +1242,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Languages</legend>
-											<input type="text" name="your_email" id="your_email" class="form-control"  placeholder="" required>
+											<input type="text" name="your_email" id="your_email" class="form-control"  placeholder="语言" required>
 										</fieldset>
 									</div>
 								</div>
@@ -1243,7 +1252,7 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Interests</legend>
-											<input type="text" name="your_email" id="your_email" class="form-control" placeholder="" required>
+											<input type="text" name="your_email" id="your_email" class="form-control" placeholder="爱好" required>
 										</fieldset>
 									</div>
 								</div>
